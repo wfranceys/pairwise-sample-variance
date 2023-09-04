@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Doubler</title>
+</head>
+
+<body>
+    <h1>Number Doubler</h1>
+    <label for="inputNumber">Enter a number:</label>
+    <input type="number" id="inputNumber">
+    <button onclick="doubleNumber()">Double</button>
+    <p id="result"></p>
+
+    <script>
+        function doubleNumber() {
+            const input = document.getElementById("inputNumber").value;
+            const result = input * 2;
+            document.getElementById("result").textContent = `Result: ${result}`;
+        }
+    </script>
+</body>
+
+</html>
