@@ -2,7 +2,7 @@
 
 👉 [Try the calculator here](https://wfranceys.github.io/pairwise-sample-variance/)
 
-### Background
+### What is this for?
 
 Given a summary table from a study, how do you calculate the combined mean age with standard deviation across the groups?
 
