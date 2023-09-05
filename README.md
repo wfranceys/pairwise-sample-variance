@@ -1,9 +1,21 @@
-# pairwise-sample-variance
+# Calculator - Computing Statistics from Aggregate Measures
 
-Pairwise Algorithm for Computing Sample Variances
+👉 [Try the calculator here](https://wfranceys.github.io/pairwise-sample-variance/)
 
-Given a set of samples, x_1, x_2, ..., x_n with aggregate statistics about each sample, say the mean and variance, calculate the mean and variance of all samples combined.
+### Background
+
+Given a summary table from a study, how do you calculate the combined mean age with standard deviation across the groups?
+
+| Diagnosis | n  | Mean age    |
+|-----------|----|-------------|
+| A         | 62 | 43.9 ± 15.3 |
+| B         | 11 | 46.3 ± 13.8 |
+| C         | 12 | 40.7 ± 14.6 |
+
+Follows algorithm by [Chan, Tony F.; Golub, Gene H.; LeVeque, Randall J. (1979), "Updating Formulae and a Pairwise Algorithm for Computing Sample Variances." (PDF), Technical Report STAN-CS-79-773, Department of Computer Science, Stanford University.](http://i.stanford.edu/pub/cstr/reports/cs/tr/79/773/CS-TR-79-773.pdf)
 
 Created as a proof of concept to help calculate aggregate statistics in meta studies.
+
+### Website
 
 ![alt text](example.png "homepage")
